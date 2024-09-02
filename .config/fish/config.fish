@@ -4,8 +4,7 @@ if status is-interactive
 end
 
 if status --is-login; and test -z "$DISPLAY"; and test "$XDG_VTNR" -eq 1
-	dhcpcd
-  exec startx
+	exec startx
 end
 
 zoxide init --cmd cd fish | source
