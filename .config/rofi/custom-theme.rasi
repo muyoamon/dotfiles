@@ -4,8 +4,8 @@
  * Copyright: Rasmus Steinke
  ******************************************************************************/
 * {
-    selected-normal-foreground:  rgba ( 255, 255, 255, 100 % );
-    foreground:                  rgba ( 180, 180, 180, 100 % );
+    selected-normal-foreground:  #ffffff;
+    foreground:                  #cfafbf;
     normal-foreground:           @foreground;
     selected-normal-background:  rgba ( 239, 52, 86, 33 % );
     normal-background:           rgba ( 47, 26, 35, 63 % );
@@ -13,11 +13,11 @@
     red:                         rgba ( 220, 50, 47, 100 % );
     selected-urgent-foreground:  rgba ( 239, 52, 86, 100 % );
     blue:                        rgba ( 38, 139, 210, 100 % );
-    urgent-foreground:           rgba ( 239, 97, 85, 100 % );
+    urgent-foreground:           #ef3456; /* rgba ( 239, 97, 85, 100 % ); */
     alternate-urgent-background: rgba ( 47, 30, 46, 18 % );
-    active-foreground:           rgba ( 129, 91, 164, 100 % );
+    active-foreground:           #ef3456; /* rgba ( 129, 91, 164, 100 % ); */
     lightbg:                     rgba ( 238, 232, 213, 100 % );
-    selected-active-foreground:  rgba ( 129, 91, 164, 100 % );
+    selected-active-foreground:  @active-foreground; /* rgba ( 171, 18, 52, 100 % ); */
     alternate-active-background: rgba ( 47, 30, 46, 18 % );
     background:                  rgba ( 31, 31, 31, 100 % );
     bordercolor:                 rgba ( 239, 97, 85, 21 % );
@@ -32,7 +32,7 @@
     background-color:            rgba ( 0, 0, 0, 0 % );
     alternate-active-foreground: @active-foreground;
     active-background:           rgba ( 47, 30, 46, 15 % );
-    selected-active-background:  rgba ( 129, 91, 164, 33 % );
+    selected-active-background:  rgba ( 255, 255, 255, 66 % );
 }
 window {
     background-color: @background;

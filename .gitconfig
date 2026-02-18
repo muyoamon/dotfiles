@@ -1,0 +1,8 @@
+[user]
+	email = muyoamon@gmail.com
+	name = Thanatorn Wongthanaporn
+	signingKey = /home/tomi/.ssh/id_ed25519.pub
+[commit]
+	gpgSign = true
+[gpg]
+	format = ssh

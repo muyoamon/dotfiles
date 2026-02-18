@@ -1,6 +1,16 @@
+
+
 [font]
 size = 9.0
 
 [font.normal]
-family = "mesloLGS Nerd Font"
+family = "MesloLGS Nerd Font"
 style = "Regular"
+
+[general]
+
+import = [
+  "~/.config/alacritty/themes/themes/duskfox.toml"
+]
+
+

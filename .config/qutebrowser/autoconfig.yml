@@ -6,8 +6,23 @@
 
 config_version: 2
 settings:
+  colors.tabs.pinned.even.bg:
+    global: darkseagreen
+  colors.webpage.darkmode.algorithm:
+    global: brightness-rgb
   colors.webpage.darkmode.enabled:
-    global: true
+    global: false
+  colors.webpage.darkmode.policy.images:
+    global: smart-simple
+  colors.webpage.preferred_color_scheme:
+    global: auto
+  content.desktop_capture:
+    https://discord.com: true
+  content.media.audio_capture:
+    https://app.zoom.us: true
+    https://discord.com: true
+  content.media.video_capture:
+    https://app.zoom.us: true
   editor.command:
     global:
     - alacritty
