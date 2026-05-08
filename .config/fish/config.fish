@@ -13,3 +13,6 @@ alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 zoxide init --cmd cd fish | source
 set -x DEBUGINFOD_URLS "https://debuginfod.archlinux.org"
 starship init fish | source
+
+# Created by `pipx` on 2026-04-03 01:48:45
+set PATH $PATH /home/tomi/.local/bin
